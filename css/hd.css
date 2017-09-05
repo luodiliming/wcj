@@ -1,0 +1,412 @@
+/*自带的CSS*/
+ html, body {
+        position: relative;
+        height: 100%;
+    }
+    body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color:#000;
+        margin: 0;
+        padding: 0;
+    }
+    .swiper-container {
+        width: 100%;
+        height: 100%;
+    }
+    
+/*自带的CSS*/
+
+	/*音乐开始*/
+.mu{
+	width: 60px;
+	height:60px;
+	/*border:1px solid red;*/
+	position: fixed;
+	right:-12px;
+	top:10px;
+	z-index: 9;
+	
+}	
+
+		/*音乐图片旋转*/
+.mu .yin{
+	width: 35px;
+	height: 35px;
+	animation: mu 10s linear infinite;  /*平滑切无限循环的*/
+}
+@keyframes mu{
+	from{
+		transform: rotate(0deg);
+	}
+	to{
+		transform: rotate(360deg);
+	}
+}
+	/*音乐旋转结束*/
+/*.swiper-slide.one .bai{
+		width: 100%;
+		height:100%;
+		
+	}*/
+	/*一页开始*/
+.swiper-slide.yiye{
+	background: #E6E9EE;
+	position: relative;
+}	
+	
+.swiper-slide.yiye .qingren{
+	position: absolute;
+	left:33%;
+	top:20%;
+	font-size:21px;
+	font-weight: 700;
+	color: #888888;
+}	
+.swiper-slide.yiye img{
+	position: absolute;
+	left:30%;
+	top:43%;
+	width: 160px;
+	height:160px;
+}
+.swiper-slide.yiye span{
+	display: block;
+	background: #A2A4A7;
+	width: 330px;
+	height:2px;
+	position: absolute;
+	left:5%;
+	top:32%;
+}	
+	/*一页结束*/
+    /*第一张开始*/	
+.swiper-slide.one{
+	background:#F0F4DC;
+}	
+	
+.swiper-slide.one .yu{
+	position: absolute;
+	left:0%;
+	top:0%;
+		
+}
+.swiper-slide.one .xin{
+	position: absolute;
+	top:11%;
+	left:4%;
+}
+
+.swiper-slide.one .shuai{
+	position: absolute;
+	left:33%;
+	top:38%;
+}
+.swiper-slide.one p:nth-child(4){
+	font-size: 16px;
+	line-height: 16px;
+	color: #EA005C;
+	position: absolute;
+	left: 41%;
+	top:71%;
+	}
+
+.swiper-slide.one p:nth-child(5){
+	font-size: 16px;
+	line-height: 16px;
+	color: #EA005C;
+	position: absolute;
+	left: 43%;
+	top:76%;
+	}
+.swiper-slide.one p:nth-child(6){
+	font-size: 16px;
+	line-height: 16px;
+	color: #EA005C;
+	position: absolute;
+	left: 41%;
+	top:81%;
+	}
+
+.swiper-slide.one p:nth-child(7){
+	font-size: 16px;
+	line-height: 16px;
+	color: #EA005C;
+	position: absolute;
+	left: 35%;
+	top:86%;
+	}
+	/*第二结束*/
+	
+	/*第two开始*/
+.swiper-slide.two{
+	position: relative;
+	background:#082247;
+}	
+.swiper-slide.two img:nth-child(1){
+	display: block;
+	position: absolute;
+	left:5%;
+	bottom: 0%;
+}
+
+.swiper-slide.two img:nth-child(2){
+	display: block;
+	width: 98px;
+	height: 52;
+	position: absolute;
+	left:5%;
+	top:55%;
+}
+.swiper-slide.two img:nth-child(3){
+	display: block;
+	width: 55px;
+	height: 24px;
+	position: absolute;
+	left:70%;
+	top:17%;
+}
+.swiper-slide.two p:nth-child(4){
+	position: absolute;
+	left:73%;
+	top:14%;
+	font-family: "楷体";
+	color: #F56E6E;
+	font-size: 39px;
+	font-weight: 700;
+	line-height: 49px;
+	width: 76px;
+	height: 160px;
+}
+.swiper-slide.two p:nth-child(5){
+	position: absolute;
+	left:52%;
+	top:7%;
+	font-family: "楷体";
+	color: #FADF00;
+	font-size: 39px;
+	font-weight: 700;
+	line-height: 49px;
+	width: 76px;
+	height: 160px;
+}
+
+.swiper-slide.two p:nth-child(6){
+	position: absolute;
+	left:28%;
+	top:-3%;
+	font-family: "楷体";
+	color: #FFFFFF;
+	font-size: 39px;
+	font-weight: 700;
+	line-height: 49px;
+	width: 76px;
+	height: 350px;
+}
+
+	/*第two结束*/
+
+	/*第three开始*/
+.swiper-slide.three{
+	background: url(../images/beijing.png) no-repeat;
+	background-size:cover;
+	position: relative;
+}	
+.swiper-slide.three img{
+	position: absolute;
+	left:18%;
+	top:17%;
+}	
+.swiper-slide.three .laopo{
+	border:2px solid #F4D6F2;
+	box-shadow: 0px 0px 5px #F4D6F2;
+	width: 253px;
+	height:43px;
+	position: absolute;
+	left:15%;
+	top:55%;
+}	
+.swiper-slide.three .laopo p{
+	font-size: 16px;
+	line-height: 16px;
+	color: #D76872;
+	text-align: center;
+	font-family: "黑体";
+}	
+.swiper-slide.three .woaini{
+	font-size: 24px;
+	line-height: 24px;
+	color: #DF848C;
+	font-family: "楷体";
+	font-weight: 700;
+	padding-left: 2px;
+	position: absolute;
+	left:36%;
+	top:64%;
+}	
+.swiper-slide.three .duan{
+/*	border:2px solid red;*/
+	width: 233px;
+	height: 86px;
+	position: absolute;
+	left:17%;
+	top:76%;
+
+}	
+.swiper-slide.three .duan p{
+	display: block;
+	text-indent:2em;
+	color: #D9717A;
+	font-size:15px;
+	text-align: center;
+	line-height:30px;
+	
+}	
+	/*第three结束*/
+		
+	/*第 si 行开始*/
+.swiper-slide.si{
+	background: url(../images/mei.png) no-repeat;
+	position: relative;
+	background-size: 100% 100%;
+}	
+	/*第 si 行结束*/
+.swiper-slide.si .dahe{
+	width: 142px;
+	height:264px;
+/*	border:1px solid chartreuse;*/
+	position: absolute;
+	left:30%;
+	top:22%;
+}
+.swiper-slide.si .dahe p{
+	color: #FFFFFF;
+	font-size: 15px;
+	line-height: 15px;
+	padding-left: 33px;
+}
+.swiper-slide.si .dahe .mou{
+	width: 30px;
+	height:130px;
+/*	border: 1px solid red;*/
+	position: absolute;
+	left:41%;
+	top:23%;
+	font-size: 30px;
+	color:#FFFFFF;
+	font-family: "楷体";
+	
+}
+.swiper-slide.si .jieshao{
+	width: 350px;
+	height: 100px;
+	/*border: 1px solid red;*/
+	position: absolute;
+	left:-80%;
+	top:125%;
+}
+.swiper-slide.si .jieshao p{
+	color: #D6D5D4;
+	font-size: 16px;
+	Letter-spacing:2px;
+	line-height:22px;
+}
+.swiper-slide.si .bian{
+	width: 150px;
+	height:270px;
+	border:2px solid #D8D6D6;
+	position: absolute;
+	left:-4%;
+	top:-2%;
+}
+
+/*五号开始*/
+.swiper-slide.wu{
+	background: url(../images/chuan.png) no-repeat;
+	position: relative;
+	/*background:rgba(194, 225, 255,0.3);*/
+}
+.swiper-slide.wu img{
+	position: absolute;
+	display: block;
+}
+.swiper-slide.wu img:nth-child(1){
+	width:214px;
+	height:163px;
+	left:18%;
+	top:16%;
+}
+
+.swiper-slide.wu img:nth-child(2){
+	width:214px;
+	height:163px;
+	left:18%;
+	bottom: 15%;
+	max-width: 214px;
+	
+}
+.swiper-slide.wu div:nth-child(3){
+	width: 100%;
+	height:50px;
+	background:#A6E9FF;
+	position: absolute;
+	left:0;
+	top:47%;
+}
+.swiper-slide.wu .zuei span{
+	display: block;
+	font-size:24px;
+	color:rgb(255,255,255);
+	line-height: 50px;
+	padding-left:63px;
+	
+}
+.swiper-slide.wu div:nth-child(4){
+position: absolute;
+top:10%;
+left:9%;
+width: 300px;
+height:520px;
+border:3px solid #FFFFFF;
+transform: rotate(-6.8deg); 
+}
+.swiper-slide.wu p:nth-child(5){
+	position: absolute;
+	font-size: 50px;
+	color:#FFFFFF;
+	font-weight: 400;
+	left:88%;
+	top:2%;
+	transform: rotate(80deg); 
+}
+.swiper-slide.wu p:nth-child(6){
+	position: absolute;
+	color:#FFFFFF;
+	font-size: 50px;
+	font-weight: 400;
+	left:89%;
+	top:6%;
+	transform: rotate(80deg); 
+}
+.swiper-slide.wu p:nth-child(7){
+	position: absolute;
+	color:#FFFFFF;
+	font-size: 50px;
+	font-weight: 400;
+	left:90%;
+	top:10%;
+	transform: rotate(80deg); 
+}
+.swiper-slide.wu p:nth-child(8){
+	position: absolute;
+	color:#FFFFFF;
+	font-size: 50px;
+	font-weight: 400;
+	left:91%;
+	top:14%;
+	transform: rotate(80deg); 
+}
+
+
+
